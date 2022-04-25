@@ -1,8 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.final_year_project">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="final_year_project"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true"
+        >
+   
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
